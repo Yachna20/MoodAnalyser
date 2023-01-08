@@ -14,8 +14,8 @@ namespace TestCasesMood
             const string happymood = "Happy";
             const string sadmood = "Sad";
             AnalyseMood mood = new AnalyseMood();
-            string Actualresult = mood.Mood(sadmood);
-            string expected = "Sad";
+            string Actualresult = mood.Mood(happymood);
+            string expected = "Happy";
             Assert.AreEqual(expected, Actualresult);
 
         }

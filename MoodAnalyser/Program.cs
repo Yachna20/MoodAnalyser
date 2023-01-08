@@ -12,7 +12,7 @@ namespace MoodAnalyser
         {
             Console.WriteLine("Welcome to Mood Analyzer");
             AnalyseMood an = new AnalyseMood();
-            an.Mood("sad");
+            an.Mood("happy");
         }
 
     }
